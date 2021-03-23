@@ -28,6 +28,19 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
+        <section className='navbar-search'>
+         <div className='input-areas'>
+          <form>
+            <input
+              className='navbar-input'
+              name='search'
+              type='serach'
+              placeholder='search...'
+            />
+            <Button buttonStyle='btn--outline'>Search</Button>
+          </form>
+         </div>
+        </section>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Ecommerce
             <i class='fab fa-typo3' />

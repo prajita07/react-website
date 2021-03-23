@@ -99,19 +99,19 @@
     line-height: 24px;
   }
   
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 800px) {
     .content__blog__container {
       width: 84%;
     }
   }
   
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 800px) {
     .cards__items {
       display: flex;
     }
   }
   
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 800px) {
     .cards__item {
       margin-bottom: 2rem;
     }
