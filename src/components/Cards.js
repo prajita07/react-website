@@ -1,6 +1,11 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import image1 from '../images/img-1.jpg'
+import image2 from '../images/img-2.jpg'
+import image3 from '../images/img-3.jpg'
+import image4 from '../images/img-4.jpg'
+import image5 from '../images/img-5.jpg'
 
 function Cards() {
   return (
@@ -9,14 +14,15 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
+        
             <CardItem
-              src='/images/img-9.jpg'
+              src={image1}
               text='Classy leather belt watch'
               label='Watch'
               path='/products'
             />
             <CardItem
-              src='/images/img-2.jpg'
+              src={image2}
               text='Latest apple smart watch'
               label='Apple Watch'
               path='products'
@@ -24,19 +30,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='/images/img-3.jpg'
+              src={image3}
               text='Latest Samsung headphones'
               label='Headphones'
               path='products'
             />
             <CardItem
-              src='/images/img-4.jpg'
+              src={image4}
               text='Headphones of high quality'
               label='Gadget'
               path='/products'
             />
             <CardItem
-              src='/images/img-8.jpg'
+              src={image5}
               text='Wireless apple smart airpods'
               label='Airpods'
               path='products'
